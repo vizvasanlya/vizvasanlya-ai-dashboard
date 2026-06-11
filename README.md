@@ -1,14 +1,15 @@
-# AI Dashboard
+# AI Operations Dashboard
 
-A polished analytics dashboard for tracking AI usage, model performance, cost, and operational signals.
+Track AI model usage, request volume, latency, safety checks, prompt quality, and cost signals in one operational workspace.
 
-## Features
+## MVP features
 
-- Responsive dashboard layout
-- Interactive quick-add workflow
-- Filterable item list
-- Metric cards and insight panel
-- LocalStorage persistence for new items
+- Responsive single-page application
+- LocalStorage persistence
+- Search, filter, sort, and view switching
+- Add, edit, delete, complete, import, and export workflows
+- Metrics, details panel, activity log, and analytics view
+- Seed data tailored to the domain
 
 ## Run
 
@@ -16,4 +17,4 @@ A polished analytics dashboard for tracking AI usage, model performance, cost, a
 npm start
 ```
 
-Open `http://localhost:5173` in a browser.
+Open `http://localhost:5173`.

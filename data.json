@@ -1,0 +1,115 @@
+{
+  "name": "vizvasanlya-ai-dashboard",
+  "title": "AI Operations Dashboard",
+  "subtitle": "Model usage, cost, and quality controls",
+  "eyebrow": "AI platform MVP",
+  "initial": "AI",
+  "accent": "#7c3aed",
+  "description": "Track AI model usage, request volume, latency, safety checks, prompt quality, and cost signals in one operational workspace.",
+  "metrics": [
+    {
+      "label": "Total pipelines",
+      "delta": "Live",
+      "type": "count"
+    },
+    {
+      "label": "Active workflows",
+      "delta": "+18%",
+      "type": "count"
+    },
+    {
+      "label": "Completion rate",
+      "delta": "Quality",
+      "type": "percent"
+    },
+    {
+      "label": "High priority",
+      "delta": "Focus",
+      "type": "count"
+    },
+    {
+      "label": "Estimated value",
+      "delta": "ROI",
+      "type": "currency"
+    }
+  ],
+  "statuses": [
+    "Healthy",
+    "Active",
+    "Review",
+    "Optimized",
+    "Blocked"
+  ],
+  "resources": [
+    {
+      "title": "Summarization pipeline",
+      "owner": "AI team",
+      "status": "Healthy",
+      "priority": "High",
+      "dueDate": "2026-06-18",
+      "value": 18400,
+      "detail": "Production summarization flow with safety checks and latency monitoring.",
+      "notes": "Monitor prompt drift and cache hit rate daily."
+    },
+    {
+      "title": "Embedding cache",
+      "owner": "Platform",
+      "status": "Optimized",
+      "priority": "Medium",
+      "dueDate": "2026-06-20",
+      "value": 9200,
+      "detail": "Reusable embeddings for repeat customer queries.",
+      "notes": "Track cache invalidation after model updates."
+    },
+    {
+      "title": "Safety policy filter",
+      "owner": "Trust",
+      "status": "Active",
+      "priority": "Critical",
+      "dueDate": "2026-06-15",
+      "value": 26000,
+      "detail": "Policy checks for generated answers and tool calls.",
+      "notes": "Review false positives weekly."
+    },
+    {
+      "title": "Prompt template library",
+      "owner": "Product",
+      "status": "Review",
+      "priority": "Medium",
+      "dueDate": "2026-06-24",
+      "value": 7600,
+      "detail": "Shared prompt patterns for support, sales, and operations.",
+      "notes": "Add evaluation examples for each template."
+    },
+    {
+      "title": "Model cost forecast",
+      "owner": "Finance",
+      "status": "Active",
+      "priority": "High",
+      "dueDate": "2026-06-22",
+      "value": 14300,
+      "detail": "Forecast spend from traffic growth and model mix.",
+      "notes": "Compare forecast against actual invoices."
+    },
+    {
+      "title": "Evaluation dataset",
+      "owner": "ML",
+      "status": "Healthy",
+      "priority": "High",
+      "dueDate": "2026-06-28",
+      "value": 21000,
+      "detail": "Golden dataset for regression testing model changes.",
+      "notes": "Add edge cases for policy and grounding."
+    }
+  ],
+  "activity": [
+    {
+      "text": "Connected model usage metrics.",
+      "at": "2026-06-10T09:00:00Z"
+    },
+    {
+      "text": "Added cost forecast workflow.",
+      "at": "2026-06-09T14:30:00Z"
+    }
+  ]
+}
